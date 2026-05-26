@@ -27,3 +27,7 @@ https://testingcf.jsdelivr.net/gh/hellomrli/lain-openclash-rules@main/cfg/Lain_S
 本模板基于 Aethersailor/Custom_OpenClash_Rules 的思路和部分规则引用进行精简调整。原项目：
 
 https://github.com/Aethersailor/Custom_OpenClash_Rules
+
+## 备注
+
+- 乌龟服规则包含 `178.249.208.186/32`，模板开启 `udp=true`，用于 TCP/UDP 同时代理。

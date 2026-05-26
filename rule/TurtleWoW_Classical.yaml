@@ -2,3 +2,4 @@ payload:
   - DOMAIN-SUFFIX,turtle-wow.org
   - DOMAIN-SUFFIX,turtle-wow.com
   - DOMAIN-SUFFIX,forum.turtle-wow.org
+  - IP-CIDR,178.249.208.186/32,no-resolve
