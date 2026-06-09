@@ -31,3 +31,8 @@ https://github.com/Aethersailor/Custom_OpenClash_Rules
 ## 备注
 
 - 乌龟服规则包含 `178.249.208.186/32`，模板开启 `udp=true`，用于 TCP/UDP 同时代理。
+
+## 更新日志
+
+### 2026-06-10
+- **移除**: 删除燕云十六声（YYSLS）全部规则文件及配置引用
