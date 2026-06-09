@@ -10,6 +10,3 @@ payload:
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,x.ai
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
