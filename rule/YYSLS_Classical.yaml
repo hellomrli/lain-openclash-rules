@@ -1,0 +1,27 @@
+payload:
+  # 燕云十六声 游戏官网/启动器
+  - DOMAIN-SUFFIX,yysls.cn
+  - DOMAIN-SUFFIX,yysls.163.com
+  - DOMAIN-SUFFIX,yysls.netease.com
+
+  # 网易游戏通用登录/认证
+  - DOMAIN-SUFFIX,netease.com
+  - DOMAIN-SUFFIX,163.com
+  - DOMAIN-SUFFIX,nie.netease.com
+
+  # 网易云游戏 / 战斗服务器
+  - DOMAIN-SUFFIX,cg.163.com
+  - DOMAIN-SUFFIX,everstonegames.com
+
+  # Steam 版（如果走Steam）
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+
+  # CDN加速域名（网易/腾讯云/阿里云CDN）
+  - DOMAIN-SUFFIX,126.net
+  - DOMAIN-SUFFIX,163jiasu.com
+  - DOMAIN-SUFFIX,neteaseim.com
+
+  # 关键游戏API端点
+  - DOMAIN-KEYWORD,yysls
+  - DOMAIN-KEYWORD,netease
