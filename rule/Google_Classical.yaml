@@ -1,0 +1,8 @@
+payload:
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,deepmind.google.com
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,googleapis.com
