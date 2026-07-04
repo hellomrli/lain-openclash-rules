@@ -28,11 +28,22 @@ https://testingcf.jsdelivr.net/gh/hellomrli/lain-openclash-rules@main/cfg/Lain_S
 
 https://github.com/Aethersailor/Custom_OpenClash_Rules
 
+当前上游规则镜像：
+
+```text
+https://api.asailor.org/Custom_OpenClash_Rules/main/
+```
+
 ## 备注
 
 - 乌龟服规则包含 `178.249.208.186/32`，模板开启 `udp=true`，用于 TCP/UDP 同时代理。
 
 ## 更新日志
+
+### 2026-07-05
+- **同步**: Aethersailor 上游补充规则地址切换为 `api.asailor.org`，修复旧 jsDelivr 地址 404。
+- **同步**: 更新香港 / 美国 / 日本节点匹配正则，提升复杂节点名的地区识别率。
+- **保留**: 继续维持精简策略组，不恢复 YouTube、Netflix、Disney+、HBO、PrimeVideo 等媒体细分分组。
 
 ### 2026-06-10
 - **移除**: 删除燕云十六声（YYSLS）全部规则文件及配置引用
