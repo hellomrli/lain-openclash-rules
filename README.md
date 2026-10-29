@@ -8,7 +8,7 @@ Lain 标准版规则：为 OpenClash / Mihomo 订阅转换准备的精简规则�
 - 不包含节点名称、节点地址或节点信息
 - 仅保留香港 / 美国 / 日本三个地区节点组
 - 移除 YouTube、Netflix、Disney+、HBO、PrimeVideo 等媒体细分策略组；保留 Steam 与 Bahamut
-- 增加 AI 服务、日本服务、乌龟服、Bilibili 策略组，并保留 Steam、Bahamut 独立组
+- 增加 AI 服务、日本服务、香港服务、乌龟服、Bilibili 策略组，并保留 Steam、Bahamut 独立组
 
 ## 远程配置地址
 
@@ -41,6 +41,7 @@ https://api.asailor.org/Custom_OpenClash_Rules/main/
 ### 2026-10-29
 - **新增**: `🇯🇵 日本服务` 策略组，整合 DMM 与 Abema / Niconico / Pixiv / DLsite / Radiko / TVer，并覆盖 `.jp` 后缀域名。
 - **移除**: 独立 `🇯🇵 DMM` 策略组，DMM 规则改指向 `🇯🇵 日本服务`。
+- **新增**: `🇭🇰 香港服务` 策略组，整合 Viu / MyTVSuper / Now / RTHK / iCable、TVB 系域名与 `.hk`、`.香港` 后缀（与路由器侧 honk 的 `hongkong` 组口径一致）。
 - **同步**: 删除 `[]GEOSITE,google-cn` 直连规则（上游于 2026-10-18 从全部模板移除，避免命中后直连失败无法回落）。
 - **同步**: `Steam_CDN_Classical.yaml` 更换为 `Game_Download_CDN_Domain.yaml` + `Game_Download_CDN_Classical_IP.yaml`（上游 2026-07-23 将 Steam CDN 合并进游戏下载规则，现覆盖 494 条域名与 23 条 IP 规则）。
 - **同步**: 健康检查 URL 由 `https://cp.cloudflare.com/generate_204` 更换为 `https://www.gstatic.com/generate_204`（上游 2026-09-15 统一；gstatic 稳定返回 204，避免强制门户端点返回 200 或重定向造成节点误判）。
