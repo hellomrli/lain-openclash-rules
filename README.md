@@ -42,6 +42,7 @@ https://api.asailor.org/Custom_OpenClash_Rules/main/
 - **新增**: `🇯🇵 日本服务` 策略组，整合 DMM 与 Abema / Niconico / Pixiv / DLsite / Radiko / TVer，并覆盖 `.jp` 后缀域名。
 - **移除**: 独立 `🇯🇵 DMM` 策略组，DMM 规则改指向 `🇯🇵 日本服务`。
 - **新增**: `🇭🇰 香港服务` 策略组，整合 Viu / MyTVSuper / Now / RTHK / iCable、TVB 系域名与 `.hk`、`.香港` 后缀（与路由器侧 honk 的 `hongkong` 组口径一致）。
+- **优化**: 游戏下载直连规则（`category-games@cn`、`Game_Download_CDN` 两条、`category-game-platforms-download`）前移至 `Custom_Proxy` 之后、`geosite:gfw` 之前，避免下载域名先命中代理组（对齐上游 Lite 顺序）。
 - **同步**: 删除 `[]GEOSITE,google-cn` 直连规则（上游于 2026-10-18 从全部模板移除，避免命中后直连失败无法回落）。
 - **同步**: `Steam_CDN_Classical.yaml` 更换为 `Game_Download_CDN_Domain.yaml` + `Game_Download_CDN_Classical_IP.yaml`（上游 2026-07-23 将 Steam CDN 合并进游戏下载规则，现覆盖 494 条域名与 23 条 IP 规则）。
 - **同步**: 健康检查 URL 由 `https://cp.cloudflare.com/generate_204` 更换为 `https://www.gstatic.com/generate_204`（上游 2026-09-15 统一；gstatic 稳定返回 204，避免强制门户端点返回 200 或重定向造成节点误判）。
