@@ -8,7 +8,7 @@ Lain 标准版规则：为 OpenClash / Mihomo 订阅转换准备的精简规则�
 - 不包含节点名称、节点地址或节点信息
 - 仅保留香港 / 美国 / 日本三个地区节点组
 - 移除 YouTube、Netflix、Disney+、HBO、PrimeVideo 等媒体细分策略组；保留 Steam 与 Bahamut
-- 增加 AI 服务、DMM、乌龟服、Bilibili 策略组，并保留 Steam、Bahamut 独立组
+- 增加 AI 服务、日本服务、乌龟服、Bilibili 策略组，并保留 Steam、Bahamut 独立组
 
 ## 远程配置地址
 
@@ -37,6 +37,10 @@ https://api.asailor.org/Custom_OpenClash_Rules/main/
 ## 备注
 
 - 乌龟服规则包含 `178.249.208.186/32`，模板开启 `udp=true`，用于 TCP/UDP 同时代理。
+
+### 2026-10-29
+- **新增**: `🇯🇵 日本服务` 策略组，整合 DMM 与 Abema / Niconico / Pixiv / DLsite / Radiko / TVer，并覆盖 `.jp` 后缀域名。
+- **移除**: 独立 `🇯🇵 DMM` 策略组，DMM 规则改指向 `🇯🇵 日本服务`。
 
 ## 更新日志
 
